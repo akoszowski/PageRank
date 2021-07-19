@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/antoniusz/PW/PageRank/src/immutable/common.hpp
+iostream
+-
+sstream
+-
+
+/home/antoniusz/PW/PageRank/src/immutable/idGenerator.hpp
+string
+-
+pageId.hpp
+/home/antoniusz/PW/PageRank/src/immutable/pageId.hpp
+
+/home/antoniusz/PW/PageRank/src/immutable/pageId.hpp
+string
+-
+
+/home/antoniusz/PW/PageRank/src/sha256IdGenerator.hpp
+iostream
+-
+string
+-
+immutable/idGenerator.hpp
+/home/antoniusz/PW/PageRank/src/immutable/idGenerator.hpp
+immutable/pageId.hpp
+/home/antoniusz/PW/PageRank/src/immutable/pageId.hpp
+
+/home/antoniusz/PW/PageRank/tests/sha256Test.cpp
+../src/immutable/common.hpp
+/home/antoniusz/PW/PageRank/src/immutable/common.hpp
+../src/sha256IdGenerator.hpp
+/home/antoniusz/PW/PageRank/src/sha256IdGenerator.hpp
+

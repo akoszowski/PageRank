@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wall -Wextra -Werror -g -rdynamic CMakeFiles/pageRankPerformanceTest.dir/pageRankPerformanceTest.cpp.o -o pageRankPerformanceTest  -lpthread 
